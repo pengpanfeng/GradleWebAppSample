@@ -31,5 +31,7 @@ public class DateUtils {
 		  return Days.daysBetween(fromDate, newYear).getDays();
 	}
 	
+	
+	
 
 }
