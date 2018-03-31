@@ -20,5 +20,10 @@ public class DateUtils {
 		  LocalDate newYear = fromDate.plusYears(1).withDayOfYear(1);
 		  return Days.daysBetween(fromDate, newYear).getDays();
 	}
+	public int daysToNewYear3() {
+	      LocalDate fromDate = new LocalDate();
+		  LocalDate newYear = fromDate.plusYears(1).withDayOfYear(1);
+		  return Days.daysBetween(fromDate, newYear).getDays();
+	}
 
 }
